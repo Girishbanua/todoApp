@@ -1,0 +1,62 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+nav{
+  background-color: blueviolet;
+  padding: 10px;  
+  width: 500px;
+  font-weight: bold;
+  font-size:x-large;
+  border-radius: 15px 15px 0 0;
+}
+.container{
+  background-color: rgb(251, 255, 180);
+  min-height: 300px;
+  border-radius: 0 0 15px 15px;
+  padding: 30px 0 20px 0;
+}
+form{  
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+form > div{
+  display: flex;  
+  justify-content: space-evenly;   
+  gap: 20px; 
+}
+.buttons{
+  justify-content: end;
+}
+textarea{
+  width: 100%;    
+}
+input, textarea{
+  font-size: large;
+  text-align: center;
+}
+#addBtn{
+  background-color: springgreen;  
+}
+#delBtn{
+  background-color: whitesmoke;  
+}
+.tasks{  
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  margin: 10px;
+border-radius: 15px;
+}
+.tasks > div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+}
